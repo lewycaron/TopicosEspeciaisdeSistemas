@@ -19,6 +19,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
 .img_logo{
     height: 40px;
 }
@@ -117,11 +118,6 @@ footer p {
     margin-top: 10px;
 }
 
-.menu_temporario li:hover{
-    text-decoration: underline;
-}
-
-
 .grupo{ 
     font-size: 2em;
     margin-top: 50px;
@@ -131,14 +127,22 @@ footer p {
     row-gap: 30px;
 }
 
-
 .login{   
   
     background-color: #3687c1;
     padding: 20px;
     border-radius: 20px;
     margin: 0 auto;
-    
-    
+}
 
+/* Inicio paginas restritas */
+
+.area_lateral{
+    background-color: #3687C1;
+    width: 15%;
+    height: 890px;
+}
+
+.foto_aluno{
+    width: 150px;
 }
