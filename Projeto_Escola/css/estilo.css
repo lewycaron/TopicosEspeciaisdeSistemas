@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto&display=swap');
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+/* Inicio do cabeçalho */
+
+header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img_logo{
+    height: 40px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;   
+    list-style: none;
+}
+nav a{
+    color: #565656;
+    text-decoration: none;
+    font-weight: 600;
+}
+.icones{
+    height: 20px;
+    margin-left: 30px;
+}
+
+/* inicio sessão 1*/
+
+
+.texto_banner1{
+    margin-top: 150px;
+    padding-left: 150px;
+    
+    width: 35%;
+    position: absolute;
+
+}
+
+/* inicio sessão 2*/
+.banner_azul{
+    margin-top: 30px;
+    background-color: #3687C1;
+    border-radius: 30px;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_fotobanner2{
+    height: 350px;
+}
+.texto_banner2{
+    width: 35%;
+    margin-left: 100px;
+}
+/* inicio sessão 3*/
+
+.section3{
+    display: flex;
+    flex-direction: row;
+}
+
+.texto_section3{
+    text-align: justify;
+    margin: 50px;
+}
+
+
+/* inicio footer*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.img_rodape{
+    width: 100%;
+    height: 100px;
+ 
+}
+footer p {
+    position: absolute;
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+/* pagina de login*/
+
+.body_login{
+    background-color: #cecece;
+    background-image: url(../img/bg_login.jpg);
+    background-repeat: no-repeat;
+    background-size: auto, auto;
+}
+
+.menu_temporario{
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.menu_temporario li:hover{
+    text-decoration: underline;
+}
+
+
+.grupo{ 
+    font-size: 2em;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+
+.login{   
+  
+    background-color: #3687c1;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    
+    
+
+}
