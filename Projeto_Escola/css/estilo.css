@@ -4,10 +4,12 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
 }
 .container{
     width: 1280px;
     margin: 0 auto;
+
 }
 
 /* Inicio do cabeçalho */
@@ -22,7 +24,9 @@ header{
 
 .img_logo{
     height: 40px;
+    
 }
+
 .menu{
     display: flex;
     flex-direction: row;
@@ -133,8 +137,12 @@ footer p {
     padding: 20px;
     border-radius: 20px;
     margin: 0 auto;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 120px;
+}
+
+.inputlogin{
+    font-size: 0.8em;
 }
 
 /* Inicio paginas restritas */
@@ -148,3 +156,4 @@ footer p {
 .foto_aluno{
     width: 150px;
 }
+
