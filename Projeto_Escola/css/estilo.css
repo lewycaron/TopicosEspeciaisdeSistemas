@@ -184,7 +184,24 @@ footer p {
 }
 
 .foto_aluno{
-    width: 150px;
+    width: 200px;
+    
+}
+
+p{
+    line-height: 2;
+    font-size: 14px;
+}
+
+.sobremim2{
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 150px;
+    margin-right: 320px;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 16;
+
 }
 
 .menu_restrito{
