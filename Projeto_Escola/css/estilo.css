@@ -19,6 +19,18 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.menu_secundario{
+    background-color:#3687C1;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_secundario a{
+    color: white;
+}
 
 .img_logo{
     height: 40px;
@@ -141,6 +153,7 @@ footer p {
 
 .corpo{
     display: flex;
+    
 }
 
 
@@ -203,7 +216,7 @@ footer p {
 }
 
 .corpo_main{
-    margin-left: 20px;
+
     display: flex;
     flex-direction: column;
     row-gap: 30px;
