@@ -10,6 +10,16 @@ body{
     margin: 0 auto;
 }
 
+h1{
+    
+    font-size: 1.8em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2{
+    margin-bottom: 10px;
+}
+
 /* Inicio do cabeçalho */
 
 header{
@@ -59,10 +69,10 @@ nav a{
 
 
 .texto_banner1{
-    margin-top: 150px;
+    margin-top: 70px;
     padding-left: 150px;
-    
-    width: 35%;
+    text-align: justify;
+    width: 30%;
     position: absolute;
 
 }
@@ -83,19 +93,34 @@ nav a{
     height: 350px;
 }
 .texto_banner2{
+    color: white;
     width: 35%;
     margin-left: 100px;
+    text-align: justify;
+
 }
+
+
+
+
+
 /* inicio sessão 3*/
 
 .section3{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .texto_section3{
     text-align: justify;
     margin: 50px;
+}
+
+.texto_section3 h2{
+    text-align: center;
+    
 }
 
 
@@ -214,7 +239,7 @@ footer p {
 }
 
 .corpo_main{
-
+    
     display: flex;
     flex-direction: column;
     row-gap: 30px;
@@ -261,4 +286,27 @@ footer p {
 .icone_aulas{
     margin-top: 30px;
     height: 50px;
+}
+ 
+
+/* formulario de matricula */
+
+
+h3{
+    margin: 10px 0px 10px 0px;
+}
+
+.form_fieldset{
+    margin-bottom: 10px;
+    width: 30%;
+    
+}
+
+.form_fieldset ul{
+    list-style: none;
+}
+
+.form_matricula p{
+
+    margin-top: 5px;
 }
